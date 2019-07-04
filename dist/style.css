@@ -5,7 +5,7 @@
 }
 
 .recipe {
-    background-color: orange;
+    background-color:#c19a6b;
     margin: 5px;
     border: 3px solid brown;
     border-radius: 20px;
@@ -27,11 +27,20 @@
     font-weight: bold;
 }
 body{
-    height: 100vh;
-    margin: 0;
-    background: radial-gradient(#56ab2f, #a8e063);
-    background-repeat: no-repeat;
+    background-color: #a8e063;
 }
-#img {
-    background-color: silver;
+
+
+.img {
+    width: 200px;
+    height:200px;
+}
+
+.temp-item {
+    font-family: 'Merriweather', serif;
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
 }

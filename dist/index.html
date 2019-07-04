@@ -11,12 +11,31 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <script src='https://code.jquery.com/jquery-3.4.1.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
 <body>
 
 <input type = 'text' id='ingrInput' placeholder="Insert Ingredient Here">
     <button id="showRecipes">Get recipes!</button>
-<div class="container"></div> 
+    <div class="container"></div>
+    
+    <script id="recipe-template" type="text/x-handlebars-template">
+        {{#each data}}
+            <div class='recipe'>
+                <a class='title' href={{href}}>{{title}}</a><br>
+                <img class='img' src='{{thumbnail}}'>
+                <ul>
+                    {{#each ingredients}}
+                    <li class='temp-item'>{{this}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+        {{/each}}
+    </div>
+</script>
+    
+    
 
+<script src='renderer.js'></script>
 <script src='main.js'></script>
 
 </body>
