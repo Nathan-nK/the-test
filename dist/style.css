@@ -4,7 +4,7 @@
     
 }
 
-.player {
+.recipe {
     background-color: orange;
     margin: 5px;
     border: 3px solid brown;
@@ -13,20 +13,24 @@
     font-family: 'Merriweather', serif;
 }
 
-#teamInput{
-    width:90%;
+#ingrInput{
+    width:89%;
     font-size:14pt;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    margin: 3px;
 }
 
-#showTeam {
+#showRecipes {
     font-family: 'Montserrat', sans-serif;
     font-size:14pt;
     font-weight: bold;
 }
 body{
-    background-color: #92b0e3;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(#56ab2f, #a8e063);
+    background-repeat: no-repeat;
 }
 #img {
     background-color: silver;

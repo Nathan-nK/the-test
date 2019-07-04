@@ -1,3 +1,11 @@
+$('#showRecipes').on('click', function(){
+    let ingrInput = $('#ingrInput').val()
+    $('.container').empty()
+    $.get(`/recipes/${ingrInput}`, function(res) {
+        res.send(res)
+    })
+})
+       
 
 
 
