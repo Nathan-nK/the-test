@@ -10,18 +10,20 @@
     border: 3px solid brown;
     border-radius: 20px;
     text-align: center;
-    font-family: Graduate;
+    font-family: 'Merriweather', serif;
 }
 
 #teamInput{
     width:90%;
     font-size:14pt;
-    font-family: Graduate;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 #showTeam {
-    font-family: Graduate;
+    font-family: 'Montserrat', sans-serif;
     font-size:14pt;
+    font-weight: bold;
 }
 body{
     background-color: #92b0e3;
